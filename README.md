@@ -26,13 +26,30 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
 
+.map converts the elements, .reduce combines elements, .filter keeps and removes specific elements based on if its true or not.
+.map can be used to square every number in an array, .reduce can be used to combine every number in an array, .filter can be used to filter every prime number in an array
+
 2. Explain the difference between a callback and a higher order function.
+
+A higher order function is a function that receives other functions as parameters and returns a function back to the giving functions. A callback function is a function that is passed to other functions as arguments.
 
 3. Explain what a closure is.
 
+A closure is when an inner function reaches out of its scope to get a variable defined in an outer function
+
 4. Describe the four principles of the 'this' keyword.
 
+1.window binding- if 'this' is not given context it returns the global object or undefined
+
+2.implicit binding- 'this' refers to the things left of the period when a method is invoked
+
+3.explicit binding- we tell a function what the 'this' keyword should be using .call, .apply or .bind.
+
+4.new binding- When a function is invoked with a new keyword the this keyword inside that function is bound to the new object being constructed.
+
 5. Why do we need super() in an extended class?
+
+extends and super combined do what object.create and parent.call tells it to do
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
